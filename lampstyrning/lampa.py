@@ -3,7 +3,7 @@
 #Ändra sökvägen i filerna om du skall använda knappstatus
 #Glöm inte att ställa in vilken GPIO som styrningen är inkopplad på.
 #Detta är för att aktivera 1 stycke relä
-#Konstruerad av Andreas Olsson för Husvagns PC Projekt
+#Konstruerad av Andreas Olsson för Husvagns PC Projekt, se facebook grupp för mer info.
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BOARD)

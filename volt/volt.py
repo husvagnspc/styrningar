@@ -9,7 +9,7 @@ ser = serial.Serial('/dev/ttyACM0', 9600)
 while 1 :
         text = ser.readline()
         print ser.readline()
-        file = open("/opt/skript/volten.txt", "w")
+        file = open("/opt/skript/volt.txt", "w")
         lines_of_text = [text]
         file.writelines(lines_of_text)
         file.close()
